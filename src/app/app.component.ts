@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Bienvenue sur le site de Chloé !';
+  
+  isButtonVisible = false;
+  toggleDisplay() {
+    this.isButtonVisible = !this.isButtonVisible;
+}
 }

@@ -15,4 +15,7 @@ export class MonComposantComponent implements OnInit {
   ngOnInit() {
   }
 
+  direBonjour() {
+    console.log("bonjour");
+  }
 }
