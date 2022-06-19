@@ -9,12 +9,14 @@ import { AppComponent } from './app.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { TestComponentComponent } from './test-component/test-component.component';
 import { MonComposantComponent } from './mon-composant/mon-composant.component';
+import { CardComponent } from './card/card.component';
 @NgModule({
   declarations: [
     AppComponent,
     UserProfileComponent,
     TestComponentComponent,
     MonComposantComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
@@ -22,6 +24,6 @@ import { MonComposantComponent } from './mon-composant/mon-composant.component';
     ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent ]
 })
 export class AppModule { }

@@ -1,1 +1,8 @@
-<p>user-profile works!</p>
+<div class="card">
+    <img id="profilePicture" [src]="User.image" alt="profile picture">
+    <h1>Hello {{User.firstname}}!</h1>
+    <p>{{User.age}}</p>
+    <label for="quote"> quote: {{ User.quote }}</label>
+        <input id="quote" type="text" name="quote" value="" [(ngModel)]="User.quote">
+    <button class="show-hide"  (click)= "toggleDisplay()">Show/Hide</button>
+ </div>
