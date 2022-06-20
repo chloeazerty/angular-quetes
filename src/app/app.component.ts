@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'Bienvenue sur le site de Chloé !';
+  title = 'Raclette party';
+
+  isThisIngredientVital : boolean = true;
 }
 
