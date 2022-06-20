@@ -11,5 +11,6 @@ export class ShoppingComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  isThisIngredientVital: boolean = false;
 
 }

@@ -3,15 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { KitchenComponent } from './kitchen/kitchen.component';
-import { MagicOvenComponent } from './magic-oven/magic-oven.component';
-import { DeveloperComponent } from './developer/developer.component';
-import { SkillComponent } from './skill/skill.component';
+
 import { ShoppingComponent } from './shopping/shopping.component';
+import { PremiumComponent } from './premium/premium.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, KitchenComponent, MagicOvenComponent, DeveloperComponent, SkillComponent, ShoppingComponent],
+  declarations: [ AppComponent, ShoppingComponent, PremiumComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
