@@ -1,18 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: [ './app.component.css' ]
 })
-
-export class AppComponent {
-  title = 'Raclette party';
-
-  isThisIngredientVital : boolean = true;
-
-  displayGuestList: boolean = false;
-
-  songList: string[] = ["Alejandro", "Ne me quittes pas", "Le temps est bon" ]
+export class AppComponent  {
+  name = 'Angular';
 }
-
